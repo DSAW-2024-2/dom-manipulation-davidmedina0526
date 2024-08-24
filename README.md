@@ -3,6 +3,8 @@
 
 ![Design preview for the Carousel component coding challenge](./assets/mockup.png)
 
+Link al proyecto: https://dsaw-2024-2.github.io/dom-manipulation-davidmedina0526/
+
 Este proyecto consiste en resolver un reto de desarrollo web en el que se debe crear un carrusel básico utilizando HTML, CSS y JavaScript. El objetivo principal es crear un componente funcional que permita a los usuarios navegar entre tres imágenes predeterminadas.
 
 **Nota:** Para este ejercicio **no** está permitido el uso de frameworks de CSS
