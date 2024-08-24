@@ -47,8 +47,24 @@ window.onload = function () {
         }
     }
 
+    function colorBoton(event) {
+        if (event.target.tagName === 'BUTTON') {
+            event.target.style.backgroundColor = '#60C1FB';
+        }
+    }
+
+    function restaurarColorBoton(event) {
+        if (event.target.tagName === 'BUTTON') {
+            event.target.style.backgroundColor = '';
+        }
+    }
+
     botonAdelante.addEventListener('click', pasarFoto);
     botonAtras.addEventListener('click', retrocederFoto);
+    botonAdelante.addEventListener('mouseover', colorBoton);
+    botonAtras.addEventListener('mouseover', colorBoton);
+    botonAdelante.addEventListener('mouseout', restaurarColorBoton);
+    botonAtras.addEventListener('mouseout', restaurarColorBoton);
 
     actualizarImagen();
 }
